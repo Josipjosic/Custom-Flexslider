@@ -1,0 +1,25 @@
+{
+  "name": "factory---flexslider-fixed",
+  "version": "1.0.0",
+  "description": "Custom flexslider  ----------------------------------------------------- My first custom flexslider ever, for now it works as intended, later will add some animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel src -d js/function.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josipjosic/Factory---Flexslider-Fixed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josipjosic/Factory---Flexslider-Fixed/issues"
+  },
+  "homepage": "https://github.com/Josipjosic/Factory---Flexslider-Fixed#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
