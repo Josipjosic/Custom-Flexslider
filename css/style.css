@@ -1,1 +1,155 @@
-body{margin:0;padding:0;width:941px;height:730px;font-family:'Source Sans Pro',sans-serif}#divFooter,#divHeader{width:100%;height:100px;margin-top:-20px;background-color:#ddd;border-radius:5px 5px 5px 5px}#divFooter h1,#divHeader h1{color:#fff;text-align:center;padding-top:25px}.sizeOne{width:260px}.sizeTwo{width:120px}.sizeThree{width:180px}.sizeFour{width:220px}#container{height:420px;margin-top:60px;margin-bottom:60px}#container h3{font-size:32px;text-align:left;margin-top:35px;color:#134880;font-weight:bolder}#container p{font-size:18px;text-align:left;line-height:26px;color:#484a4c}.slider{display:-ms-grid;display:grid;float:left;margin-right:19px;margin-left:-1235px;overflow:hidden}.upperRow{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;overflow:hidden;position:relative;margin:0}.upperRow img{border-radius:5px;margin-left:10px;margin-bottom:10px;display:block}.upperRow li{list-style-type:none;margin:0}.lowerRow{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;margin-left:-190px;overflow:hidden;position:relative;margin-bottom:60px;margin-top:0}.lowerRow img{border-radius:5px;margin-left:10px;display:block}.lowerRow li{list-style-type:none}.controls{display:-ms-grid;display:grid;float:right;margin-left:1811px;position:absolute;margin-top:200px}.controls button{width:60px;height:60px;margin-top:10px;border:1px solid #ddd;border-radius:5px;padding:22px 25px 22px 25px}.controls button:hover{border:1px solid #134880;cursor:pointer}.controls .left{background-image:url(../Images/arrow-gray-left.png);background-repeat:no-repeat;background-position:center}.controls .left:active,.controls .left:focus{background-image:url(../Images/arrow-blue-left.png);border:1px solid #134880}.controls .right{background-image:url(../Images/arrow-gray-right.png);background-repeat:no-repeat;background-position:center}.controls .right:active,.controls .right:focus{background-image:url(../Images/arrow-blue-right.png);border:1px solid #134880}
+body {
+  margin: 0;
+  padding: 0;
+  width: 941px;
+  height: 730px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#divHeader, #divFooter {
+  width: 100%;
+  height: 100px;
+  margin-top: -20px;
+  background-color: #dddddd;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#divHeader h1, #divFooter h1 {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.sizeOne {
+  width: 260px;
+}
+
+.sizeTwo {
+  width: 120px;
+}
+
+.sizeThree {
+  width: 180px;
+}
+
+.sizeFour {
+  width: 220px;
+}
+
+#container {
+  height: 420px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#container h3 {
+  font-size: 32px;
+  text-align: left;
+  margin-top: 35px;
+  color: #134880;
+  font-weight: bolder;
+}
+
+#container p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 26px;
+  color: #484a4c;
+}
+
+.slider {
+  display: -ms-grid;
+  display: grid;
+  float: left;
+  margin-right: 19px;
+  margin-left: -1235px;
+  overflow: hidden;
+}
+
+.upperRow {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+.upperRow img {
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.upperRow li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.lowerRow {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: -190px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+
+.lowerRow img {
+  border-radius: 5px;
+  margin-left: 10px;
+  display: block;
+}
+
+.lowerRow li {
+  list-style-type: none;
+}
+
+.controls {
+  display: -ms-grid;
+  display: grid;
+  float: right;
+  margin-left: 1811px;
+  position: absolute;
+  margin-top: 200px;
+}
+
+.controls button {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 22px 25px 22px 25px;
+}
+
+.controls button:hover {
+  border: 1px solid #134880;
+  cursor: pointer;
+}
+
+.controls .left {
+  background-image: url(../Images/arrow-gray-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.controls .left:focus, .controls .left:active {
+  background-image: url(../Images/arrow-blue-left.png);
+  border: 1px solid #134880;
+}
+
+.controls .right {
+  background-image: url(../Images/arrow-gray-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.controls .right:focus, .controls .right:active {
+  background-image: url(../Images/arrow-blue-right.png);
+  border: 1px solid #134880;
+}
+/*# sourceMappingURL=style.css.map */

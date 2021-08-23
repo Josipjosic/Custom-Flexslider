@@ -22,7 +22,7 @@ JavaScript:
 
 Nije dobra praksa pisati js kod unutar html-a, slično kao i css potrebno je js kod imati napisan u zasebnom fajlu, ispraviti 											GOTOVO
 Trenutna javascript logika se čini u redu, međutim nakon tražene izmjene markup-a (dva odvojena reda) će ju biti potrebno modificirati										GOTOVO
-Onemogućiti klik na button ukoliko još traje tranzicija, jer nakon nekoliko uzastopnih klikova slider se nastavlja sam micati neko vrijeme što je loš UI/UX							------
+Onemogućiti klik na button ukoliko još traje tranzicija, jer nakon nekoliko uzastopnih klikova slider se nastavlja sam micati neko vrijeme što je loš UI/UX							GOTOVO
 Umjesto stare “click” sintakse koristiti noviju “on” sintaksu pisanja listenera u jQuery-u 															GOTOVO
 Samu jQuery skriptu nije potrebno držati u projektu, potrebno ju je inkludati sa cdn-a    															GOTOVO
 Sintaksa kojom je pisan js kod, nije ES6/ECMASCRIPT 2015, proučiti i implementirati. Također proučiti i probati implementirati babel za transpile (https://babeljs.io/). Slično kao i kod SCSS-a, krajnja output skripta bi trebala biti minificirana																									++/--
