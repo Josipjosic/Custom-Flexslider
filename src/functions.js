@@ -1,11 +1,11 @@
 $(document).ready(function() { 
 
-    var item_width = $('.slider li').outerWidth();          // Width of the selected items
-	var left_value = item_width ;          // Value of how much items gonna move by   
+    const item_width = $('.slider li').outerWidth();          // Width of the selected items
+	const left_value = item_width ;          // Value of how much items gonna move by   
     
     $('.left').on("click",function(){          // On click function
 
-        var left_intend_up = parseInt($('.upperRow li')) + item_width
+        const left_intend_up = parseInt($('.upperRow li')) + item_width
         $('.left').prop("disabled", true);          // Button disabled
         
         $('.upperRow').animate({          
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $('.left').on("click",function(){    // On click function
    
-        var left_intend_down = parseInt($('.lowerRow li')) + item_width
+        const left_intend_down = parseInt($('.lowerRow li')) + item_width
         $('.left').prop("disabled", true);          // Button disabled
         
         $('.lowerRow').animate({          
@@ -37,7 +37,7 @@ $(document).ready(function() {
     }); 
 
     $('.right').on("click",function(){          // On click function
-        var left_intend_up = parseInt($('.upperRow li')) + item_width
+        const left_intend_up = parseInt($('.upperRow li')) + item_width
         $('.right').prop("disabled", true);          // Button disabled
         
         $('.upperRow').animate({          
@@ -52,7 +52,7 @@ $(document).ready(function() {
     });
 
     $('.right').on("click",function(){          // On click function
-        var left_intend_down = parseInt($('.lowerRow li')) + item_width
+        const left_intend_down = parseInt($('.lowerRow li')) + item_width
         $('.right').prop("disabled", true);          // Button disabled 
         
         $('.lowerRow').animate({          
